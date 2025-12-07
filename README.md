@@ -9,4 +9,3 @@ My Android learning path with Java.
 - Week 4: Firebase & MVVM
 - Final Projects
 
-Start with Week 1 and progress through each topic.
