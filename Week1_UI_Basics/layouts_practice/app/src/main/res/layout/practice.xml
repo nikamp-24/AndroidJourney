@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Left-aligned label -->
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"/>
+
+    <!-- EditText to the right of label -->
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/label"
+        android:layout_alignBaseline="@id/label"
+        android:layout_marginLeft="10dp"/>
+
+    <!-- Button below both -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/input"
+        android:layout_alignRight="@id/input"/>
+
+</RelativeLayout>
