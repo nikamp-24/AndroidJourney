@@ -382,8 +382,7 @@ android:layout_marginTop="16dp"
 ConstraintLayout is the most powerful and flexible layout manager for Android. It's designed to create complex, flat view hierarchies with a flexible system of constraints, making it the recommended layout for new projects.
 
 ### 📌 Example Layout XML
-👉 [Open ConstraintLayout XML](./activity_constraint_layout.xml)
-
+👉 [Open ConstraintLayout XML](./app/src/main/res/layout/activity_constraint_layout.xml)
 
 ## 📦 Dependency Setup
 
